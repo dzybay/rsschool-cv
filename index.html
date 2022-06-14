@@ -30,11 +30,11 @@
     <main class="main">
         <!-- <img src="./assets/img/image.jpeg" alt="avatar" class="image"> -->
         <div class="container main-container">
-            <section class="section">
+            <div class="section">
                 <p>
                     <img src="./assets/img/image.png" alt="avatar" class="image">
                 </p>
-            </section>
+            </div>
             <section class="section" id="profile">
                     <h1>Shniak Andrei</h1>
                     <hr>
@@ -42,7 +42,7 @@
             </section>
             <section class="section" id="contacts">
                 <h2 class="section-title">contacts</h2>
-                <p class="main-text">
+                <!-- <p class="main-text"> -->
                     <ul class="contact-list main-text">
                     <li>Adress: Batumi, Georgia</li>
                     <li>Mail: <a href="mailto:dzybay@gmail.com" class="link" title="email">dzybay@gmail.com</a></li>
@@ -50,7 +50,7 @@
                     <li>Telegram: <a href="https://t.me/irinainina" class="link" title="telegram">@dzybay</a></li>
                     <li>Discord: <a href="https://discord.gg/WUvSuBKkBG" class="link" title="discord">dzybay</a></li>
                     </ul>
-                </p>
+                <!-- </p> -->
             </section>
             <section class="section" id="summary">
                 <h2 class="section-title">summary</h2>
@@ -60,11 +60,13 @@
             </section>
             <section class="section" id="skills">
                 <h2 class="section-title">skills</h2>
-                <p class="main-text">
+                <!-- <p class="main-text"> -->
                     <ul class="skills-list main-text">
-                        <li>I know some HTML</li>
+                        <li>
+                            I know some HTML
+                        </li>
                     </ul>
-                </p>
+                <!-- </p> -->
             </section>
             <section class="section" id="languages">
                 <h2 class="section-title">languages</h2>
@@ -74,31 +76,37 @@
             </section>
             <section class="section" id="education">
                 <h2 class="section-title">education</h2>
-                <p class="main-text">
+                <div class="main-text">
                     <ul class="education-list main-text">
                     <li>University:
-                        <p>BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIOELECTRONICS Affiliate "Minsk Radioengineering College", Educator-Radio engineer</p>
+                        <div>
+                            BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIOELECTRONICS Affiliate "Minsk Radioengineering College", Educator-Radio engineer
+                        </div>
                     </li>
                     <li>Courses:
-                        <p><a href="https://vk.com/result.school" class="link">Result.School</a></p>
-                        <p><a href="ttps://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA" class="link">CS50 lectures</a></p>
+                        <!-- <p> -->
+                            <a href="https://vk.com/result.school" class="link">Result.School</a>,
+                        <!-- </p> -->
+                        <!-- <p> -->
+                            <a href="ttps://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA" class="link">CS50 lectures</a>
+                        <!-- </p> -->
                     </li>
                     </ul>
-                </p>
+                </div>
             </section>
             <section class="section" id="code">
                 <h2 class="section-title">code</h2>
-                <p class="main-text">
+                <div class="main-text">
                     <pre class="pre">
                         <code>
 function factorial(n) {
-if(n < 0) return null;
-if (n <= 1) return 1;
+if(n &lt; 0) return null;
+if (n &lt;= 1) return 1;
 return n * factorial(n-1);
 }
                         </code>
                     </pre>
-                </p>
+                </div>
             </section>
         </div>
     </main>
