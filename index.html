@@ -4,9 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class="main">
+        <!-- <img src="./assets/img/image.jpeg" alt="avatar" class="image"> -->
+        <div class="container main-container">
+            <div class="section">
+                <p>
+                    <img src="./assets/img/image.png" alt="avatar" class="image">
+                </p>
+            </div>
+            <section class="section" id="profile">
+                    <h1>Shniak Andrei</h1>
+                    <hr>
+                    <h3>JUNIOR FRONT-END DEVELOPER</h3>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">contacts</h2>
+                <!-- <p class="main-text"> -->
+                    <ul class="contact-list main-text">
+                    <li>Adress: Batumi, Georgia</li>
+                    <li>Mail: <a href="mailto:dzybay@gmail.com" class="link" title="email">dzybay@gmail.com</a></li>
+                    <li>Github: <a href="https://github.com/dzybay" class="link" title="github">dzybay</a></li>
+                    <li>Telegram: <a href="https://t.me/irinainina" class="link" title="telegram">@dzybay</a></li>
+                    <li>Discord: <a href="https://discord.gg/WUvSuBKkBG" class="link" title="discord">dzybay</a></li>
+                    </ul>
+                <!-- </p> -->
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">summary</h2>
+                <p class="main-text">
+                    Some time ago, I created a company selling microelectronics. To compete with other companies, we use modern solutions for the market. To improve and break the quality of my business, I decided to learn new skills. "Change or Die".
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">skills</h2>
+                <!-- <p class="main-text"> -->
+                    <ul class="skills-list main-text">
+                        <li>
+                            I know some HTML
+                        </li>
+                    </ul>
+                <!-- </p> -->
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">languages</h2>
+                <p class="main-text">
+                    <strong>A2</strong> (I am currently taught by an English teacher)
+                </p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">education</h2>
+                <div class="main-text">
+                    <ul class="education-list main-text">
+                    <li>University:
+                        <div>
+                            BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIOELECTRONICS Affiliate "Minsk Radioengineering College", Educator-Radio engineer
+                        </div>
+                    </li>
+                    <li>Courses:
+                        <!-- <p> -->
+                            <a href="https://vk.com/result.school" class="link">Result.School</a>,
+                        <!-- </p> -->
+                        <!-- <p> -->
+                            <a href="ttps://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA" class="link">CS50 lectures</a>
+                        <!-- </p> -->
+                    </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">code</h2>
+                <div class="main-text">
+                    <pre class="pre">
+                        <code>
+function factorial(n) {
+if(n &lt; 0) return null;
+if (n &lt;= 1) return 1;
+return n * factorial(n-1);
+}
+                        </code>
+                    </pre>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>
+                © 2022 <a href="https://github.com/dzybay" class="link">dzybay</a> 
+            </div>
+            <a href="https://rs.school/js/" class="rss"></a>
+        </div>
+    </footer>
 </body>
 </html>
