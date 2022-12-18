@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+  
+body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-width: 320px;
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+      font-family: 'Exo 2', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      color: black;
+      background-color: rgb(247, 247, 247);
+}
+  
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    min-height: 50px;
+}
+  
+.header {
+    background-color: rgb(111, 169, 46);
+}
+  
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+  
+.nav-link {
+    padding: 0 20px;
+    line-height: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+    font-weight: 700;
+}
+  
+.nav-link:hover {
+    color: rgb(107, 110, 140);
+} 
+  
+  
+.main {
+      border: 0px solid brown;
+      background-color: white;
+      color: black;
+      margin-bottom: auto
+}
+  
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.footer {
+    background-color: rgb(107, 110, 140);
+    padding: 20px;  
+  
+}
+  
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/svg/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+  
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+  
+  
+.section {
+    width: calc(50% - 20px);
+    padding: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+  
+.pre {
+    padding: 0;
+    margin: 0;
+}
+  
+@media (max-width: 760px) {
+    .section {
+    width: 100%;
+    }
+}
+
+.section-title {
+    font-size: 20px;
+    color: rgba(75, 75, 75, 0.543);
+    font-weight: 100;
+}
+
+.image {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#profile {
+    font-size: 100%%;
+    text-align: center;
+    /* margin: auto; */
+    color: rgb(75,75,75);
+    text-transform: uppercase;
+}
+  
+.link {
+    text-decoration: none;
+    color: rgb(111, 169, 46);
+}
+  
+.link:hover {
+    transition: .5s;
+    color: rgb(107, 110, 140);
+} 
+  
+.main-text {
+    font-weight: normal;
+}
+  
+.contact-list {
+    list-style: none;
+}
+  
+.education-list {
+    list-style: none;  
+}
+  
+.skills-list {
+    list-style: none;
+}
